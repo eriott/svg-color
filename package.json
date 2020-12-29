@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "svg-color@1.0.2",
+      "/home/regina/Projects/Icons8/icons8-renderer"
+    ]
+  ],
+  "_from": "svg-color@1.0.2",
+  "_id": "svg-color@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-8OExCjJoVtx2J9niDNG/TK3Cca0zeArG23M4Iu3z3zrFw2gXy/TMW4cYPaunGdCZOjKBKMY2poKf3wK8mJRevw==",
+  "_location": "/svg-color",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "svg-color@1.0.2",
+    "name": "svg-color",
+    "escapedName": "svg-color",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/svg-color/-/svg-color-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/home/regina/Projects/Icons8/icons8-renderer",
+  "author": {
+    "name": "Lai Schwe"
+  },
+  "dependencies": {
+    "ambients-utils": "2"
+  },
+  "description": "Replace all colors of an svg string",
+  "devDependencies": {
+    "@babel/cli": "*",
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@types/node": "*",
+    "babel-loader": "*",
+    "core-js": "*",
+    "html-webpack-plugin": "*",
+    "html-webpack-template": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  },
+  "keywords": [
+    "svg",
+    "currentColor",
+    "color",
+    "change",
+    "replace"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib-esm/index.js",
+  "name": "svg-color",
+  "scripts": {
+    "build": "yarn webpack --mode production && yarn webpack --config webpack.lib.config.js && yarn tsc",
+    "start": "yarn webpack-dev-server"
+  },
+  "types": "lib-esm/index.d.ts",
+  "version": "1.0.2"
+}
